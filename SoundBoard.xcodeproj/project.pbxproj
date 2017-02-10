@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CAB140AA1E4E2C02008721C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB140A91E4E2C02008721C8 /* AppDelegate.swift */; };
-		CAB140AC1E4E2C02008721C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB140AB1E4E2C02008721C8 /* ViewController.swift */; };
+		CAB140AC1E4E2C02008721C8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB140AB1E4E2C02008721C8 /* ListViewController.swift */; };
 		CAB140AF1E4E2C02008721C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB140AD1E4E2C02008721C8 /* Main.storyboard */; };
 		CAB140B21E4E2C02008721C8 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAB140B01E4E2C02008721C8 /* SoundBoard.xcdatamodeld */; };
 		CAB140B41E4E2C02008721C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB140B31E4E2C02008721C8 /* Assets.xcassets */; };
 		CAB140B71E4E2C02008721C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB140B51E4E2C02008721C8 /* LaunchScreen.storyboard */; };
+		CAB140C51E4E2E6F008721C8 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB140C01E4E2E6F008721C8 /* save.png */; };
+		CAB140C61E4E2E6F008721C8 /* player_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB140C11E4E2E6F008721C8 /* player_stop.png */; };
+		CAB140C71E4E2E6F008721C8 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB140C21E4E2E6F008721C8 /* play.png */; };
+		CAB140C81E4E2E6F008721C8 /* stopRecord.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB140C31E4E2E6F008721C8 /* stopRecord.png */; };
+		CAB140C91E4E2E6F008721C8 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB140C41E4E2E6F008721C8 /* record.png */; };
+		CAB140CC1E4E31D9008721C8 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB140CB1E4E31D9008721C8 /* RecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CAB140A61E4E2C02008721C8 /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB140A91E4E2C02008721C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAB140AB1E4E2C02008721C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB140AB1E4E2C02008721C8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		CAB140AE1E4E2C02008721C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAB140B11E4E2C02008721C8 /* SoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundBoard.xcdatamodel; sourceTree = "<group>"; };
 		CAB140B31E4E2C02008721C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAB140B61E4E2C02008721C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAB140B81E4E2C02008721C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB140C01E4E2E6F008721C8 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		CAB140C11E4E2E6F008721C8 /* player_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_stop.png; sourceTree = "<group>"; };
+		CAB140C21E4E2E6F008721C8 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		CAB140C31E4E2E6F008721C8 /* stopRecord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopRecord.png; sourceTree = "<group>"; };
+		CAB140C41E4E2E6F008721C8 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		CAB140CB1E4E31D9008721C8 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +68,10 @@
 		CAB140A81E4E2C02008721C8 /* SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				CAB140CA1E4E2E78008721C8 /* images */,
 				CAB140A91E4E2C02008721C8 /* AppDelegate.swift */,
-				CAB140AB1E4E2C02008721C8 /* ViewController.swift */,
+				CAB140AB1E4E2C02008721C8 /* ListViewController.swift */,
+				CAB140CB1E4E31D9008721C8 /* RecordViewController.swift */,
 				CAB140AD1E4E2C02008721C8 /* Main.storyboard */,
 				CAB140B31E4E2C02008721C8 /* Assets.xcassets */,
 				CAB140B51E4E2C02008721C8 /* LaunchScreen.storyboard */,
@@ -65,6 +79,18 @@
 				CAB140B01E4E2C02008721C8 /* SoundBoard.xcdatamodeld */,
 			);
 			path = SoundBoard;
+			sourceTree = "<group>";
+		};
+		CAB140CA1E4E2E78008721C8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CAB140C01E4E2E6F008721C8 /* save.png */,
+				CAB140C11E4E2E6F008721C8 /* player_stop.png */,
+				CAB140C21E4E2E6F008721C8 /* play.png */,
+				CAB140C31E4E2E6F008721C8 /* stopRecord.png */,
+				CAB140C41E4E2E6F008721C8 /* record.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +153,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB140C81E4E2E6F008721C8 /* stopRecord.png in Resources */,
 				CAB140B71E4E2C02008721C8 /* LaunchScreen.storyboard in Resources */,
 				CAB140B41E4E2C02008721C8 /* Assets.xcassets in Resources */,
+				CAB140C61E4E2E6F008721C8 /* player_stop.png in Resources */,
+				CAB140C91E4E2E6F008721C8 /* record.png in Resources */,
+				CAB140C51E4E2E6F008721C8 /* save.png in Resources */,
 				CAB140AF1E4E2C02008721C8 /* Main.storyboard in Resources */,
+				CAB140C71E4E2E6F008721C8 /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB140B21E4E2C02008721C8 /* SoundBoard.xcdatamodeld in Sources */,
-				CAB140AC1E4E2C02008721C8 /* ViewController.swift in Sources */,
+				CAB140AC1E4E2C02008721C8 /* ListViewController.swift in Sources */,
 				CAB140AA1E4E2C02008721C8 /* AppDelegate.swift in Sources */,
+				CAB140CC1E4E31D9008721C8 /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
