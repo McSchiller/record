@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB140AA1E4E2C02008721C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB140A91E4E2C02008721C8 /* AppDelegate.swift */; };
+		CAB140AC1E4E2C02008721C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB140AB1E4E2C02008721C8 /* ViewController.swift */; };
+		CAB140AF1E4E2C02008721C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB140AD1E4E2C02008721C8 /* Main.storyboard */; };
+		CAB140B21E4E2C02008721C8 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAB140B01E4E2C02008721C8 /* SoundBoard.xcdatamodeld */; };
+		CAB140B41E4E2C02008721C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB140B31E4E2C02008721C8 /* Assets.xcassets */; };
+		CAB140B71E4E2C02008721C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB140B51E4E2C02008721C8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAB140A61E4E2C02008721C8 /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB140A91E4E2C02008721C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB140AB1E4E2C02008721C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB140AE1E4E2C02008721C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB140B11E4E2C02008721C8 /* SoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundBoard.xcdatamodel; sourceTree = "<group>"; };
+		CAB140B31E4E2C02008721C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB140B61E4E2C02008721C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB140B81E4E2C02008721C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB140A31E4E2C02008721C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB1409D1E4E2C02008721C8 = {
+			isa = PBXGroup;
+			children = (
+				CAB140A81E4E2C02008721C8 /* SoundBoard */,
+				CAB140A71E4E2C02008721C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB140A71E4E2C02008721C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB140A61E4E2C02008721C8 /* SoundBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB140A81E4E2C02008721C8 /* SoundBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CAB140A91E4E2C02008721C8 /* AppDelegate.swift */,
+				CAB140AB1E4E2C02008721C8 /* ViewController.swift */,
+				CAB140AD1E4E2C02008721C8 /* Main.storyboard */,
+				CAB140B31E4E2C02008721C8 /* Assets.xcassets */,
+				CAB140B51E4E2C02008721C8 /* LaunchScreen.storyboard */,
+				CAB140B81E4E2C02008721C8 /* Info.plist */,
+				CAB140B01E4E2C02008721C8 /* SoundBoard.xcdatamodeld */,
+			);
+			path = SoundBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB140A51E4E2C02008721C8 /* SoundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB140BB1E4E2C02008721C8 /* Build configuration list for PBXNativeTarget "SoundBoard" */;
+			buildPhases = (
+				CAB140A21E4E2C02008721C8 /* Sources */,
+				CAB140A31E4E2C02008721C8 /* Frameworks */,
+				CAB140A41E4E2C02008721C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundBoard;
+			productName = SoundBoard;
+			productReference = CAB140A61E4E2C02008721C8 /* SoundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB1409E1E4E2C02008721C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Schiller;
+				TargetAttributes = {
+					CAB140A51E4E2C02008721C8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = NR5J9H8TC7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CAB140A11E4E2C02008721C8 /* Build configuration list for PBXProject "SoundBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB1409D1E4E2C02008721C8;
+			productRefGroup = CAB140A71E4E2C02008721C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB140A51E4E2C02008721C8 /* SoundBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB140A41E4E2C02008721C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB140B71E4E2C02008721C8 /* LaunchScreen.storyboard in Resources */,
+				CAB140B41E4E2C02008721C8 /* Assets.xcassets in Resources */,
+				CAB140AF1E4E2C02008721C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB140A21E4E2C02008721C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB140B21E4E2C02008721C8 /* SoundBoard.xcdatamodeld in Sources */,
+				CAB140AC1E4E2C02008721C8 /* ViewController.swift in Sources */,
+				CAB140AA1E4E2C02008721C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAB140AD1E4E2C02008721C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB140AE1E4E2C02008721C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB140B51E4E2C02008721C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB140B61E4E2C02008721C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB140B91E4E2C02008721C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB140BA1E4E2C02008721C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB140BC1E4E2C02008721C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NR5J9H8TC7;
+				INFOPLIST_FILE = SoundBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Schiller.SoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CAB140BD1E4E2C02008721C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NR5J9H8TC7;
+				INFOPLIST_FILE = SoundBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Schiller.SoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB140A11E4E2C02008721C8 /* Build configuration list for PBXProject "SoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB140B91E4E2C02008721C8 /* Debug */,
+				CAB140BA1E4E2C02008721C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB140BB1E4E2C02008721C8 /* Build configuration list for PBXNativeTarget "SoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB140BC1E4E2C02008721C8 /* Debug */,
+				CAB140BD1E4E2C02008721C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CAB140B01E4E2C02008721C8 /* SoundBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAB140B11E4E2C02008721C8 /* SoundBoard.xcdatamodel */,
+			);
+			currentVersion = CAB140B11E4E2C02008721C8 /* SoundBoard.xcdatamodel */;
+			path = SoundBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CAB1409E1E4E2C02008721C8 /* Project object */;
+}
